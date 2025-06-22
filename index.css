@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+.form {
+    display: flex;
+    gap: 40px;
+}
+.startIndex, .deleteCount, .itemAdd{
+    display: flex;
+    flex-direction: column;
+}
+.startIndex input, .deleteCount input, .itemAdd input{
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.startIndex label, .deleteCount label, .itemAdd label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnclass{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
